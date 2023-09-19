@@ -1,0 +1,13 @@
+Crie um programa de tela de login com os seguintes requisitos:
+
+1. Ele deve ter um campo de entrada para o nome de usuário e senha.
+2. Ele deve ter um botão de login.
+    a. Pode apenas printar no console “Bem vindo ao sistema” ao clicar, não precisa verificar o usuário e senha.
+    (**OPCIONAL**)
+    a.1 O botão deve verificar se o nome de usuário e a senha estão corretos (Plantao e 123).
+        b.1 Se correto ele deve printar no console: “Bem vindo ao sistema”.
+        b.2 Se incorreto ele deve printar no console: “Usuário ou senha incorretos”.
+3. Ele deve ter um botão de sair.
+    a. O botão deve fechar a janela.
+
+A escolha do layout fica a criterio do aluno.

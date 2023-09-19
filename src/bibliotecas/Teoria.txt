@@ -2,7 +2,7 @@ Bibliotecas em Java são coleções de classes e métodos pré-implementados que
 para realizar tarefas específicas. Elas são projetadas para facilitar o desenvolvimento de software, economizando tempo
 e esforço, uma vez que fornecem funcionalidades prontas para uso.
 
-AWT (Abstract Window Toolkit):
+# AWT (Abstract Window Toolkit):
 AWT é uma biblioteca gráfica incorporada no Java desde as primeiras versões da linguagem. Ela fornece um conjunto de
 classes e métodos para criar interfaces gráficas de usuário (GUI) em aplicativos Java. AWT é uma biblioteca baseada em
 componentes nativos do sistema operacional, o que significa que ela usa os elementos de interface de usuário
@@ -11,12 +11,12 @@ se integrem bem com a aparência nativa do sistema, mas também pode limitar a p
 
 ```import java.awt.*;```
 
-Exemplo de componentes:
+## Exemplo de componentes:
 - Button: botão que pode ser clicado para executar uma ação;
 - Label: rótulo que exibe um texto ou imagem;
 - TextField: campo de texto que permite a entrada de uma linha de texto;
 
-Swing:
+# Swing:
 Swing é uma biblioteca gráfica mais moderna e poderosa do que AWT, também incluída no Java. Ela foi projetada para
 superar as limitações de AWT e oferecer uma experiência de desenvolvimento de GUI mais consistente e portável.
 Ao contrário do AWT, o Swing é completamente baseado em Java e não depende dos elementos de interface do sistema
@@ -25,7 +25,7 @@ em diferentes sistemas operacionais.
 
 ```import java.swing.*;```
 
-Exemplo de componentes:
+## Exemplo de componentes:
 - JButton: botão que pode ser clicado para executar uma ação;
 - JLabel: rótulo que exibe um texto ou imagem;
 - JTextField: campo de texto que permite a entrada de uma linha de texto;

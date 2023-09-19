@@ -1,0 +1,18 @@
+Em Java Swing, os "layouts" (ou gerenciadores de layout) são responsáveis por controlar a disposição e organização dos
+componentes de uma interface gráfica de usuário (GUI) dentro de um contêiner, como uma janela ou um painel.
+Eles garantem que os componentes sejam posicionados e redimensionados de maneira adequada para que a interface seja
+exibida de forma organizada e atraente. Aqui estão alguns dos layouts mais comuns em Java Swing:
+
+- BorderLayout: Este layout divide o contêiner em cinco áreas: norte, sul, leste, oeste e centro. Cada área pode conter
+apenas um componente e os componentes se estendem para preencher seu espaço designado. É adequado para criar layouts
+com componentes em posições específicas da janela.
+
+- GridLayout: Este layout organiza os componentes em uma grade com um número fixo de linhas e colunas. Todos os
+componentes têm o mesmo tamanho e se ajustam automaticamente quando a janela é redimensionada. É útil para criar
+layouts uniformes de grade.
+
+- CardLayout: Este layout permite que você empilhe vários painéis, mostrando apenas um deles por vez. É útil para criar
+interfaces com várias telas ou etapas.
+
+- null: Este layout não faz nada. Você pode usar isso para criar layouts personalizados, definindo manualmente as posições
+e tamanhos dos componentes com metodos como `componente.setSize(x, y)` ou `componente.setBounds(x, y, width, height)`.

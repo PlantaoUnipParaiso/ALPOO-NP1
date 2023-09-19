@@ -1,0 +1,9 @@
+Em Java, os "listeners" são objetos que agem como observadores ou "ouvintes" de eventos que ocorrem em um programa.
+Eles são amplamente utilizados na programação de interfaces gráficas de usuário (GUI) para responder a ações do usuário,
+como cliques de mouse, pressionamentos de tecla, seleções de menu, entre outros. Os listeners são uma parte essencial
+da programação orientada a eventos, que é comumente usada em aplicativos interativos.
+
+O ActionListener é uma interface em Java que faz parte do pacote java.awt.event. Ela é amplamente utilizada no
+desenvolvimento de interfaces gráficas de usuário (GUI) para lidar com eventos de ação, especialmente em componentes
+interativos, como botões.
+

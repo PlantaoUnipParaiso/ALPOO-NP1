@@ -2,7 +2,7 @@
 
 Sejam todos muito bem vindos ao material do plantão de ALPOO para a NP1.
 
-### Conteúdo
+### Conteúdo na ordem de estudo
 - [ ]  **Bibliotecas:**
     - [ ]  AWT
     - [ ]  Swing

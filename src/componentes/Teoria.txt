@@ -1,0 +1,37 @@
+# Componentes:
+Componentes são elementos individuais de uma GUI que realizam uma função específica e interagem com o usuário.
+Eles podem incluir botões, caixas de texto, rótulos, listas, barras de rolagem e muitos outros elementos. Componentes
+são responsáveis por exibir informações na tela, coletar entrada do usuário e realizar ações com base nessa entrada.
+Em Java, os componentes gráficos são representados por classes, como JButton, JTextField, JLabel, entre outros.
+---
+# Containers:
+Containers, por outro lado, são elementos que podem conter outros componentes. Eles são usados para organizar e
+controlar a disposição dos componentes em uma janela ou painel da GUI. Containers são geralmente responsáveis pela
+estrutura hierárquica da interface de usuário. Em Java, os containers também são representados por classes, como JFrame,
+JPanel, JDialog, entre outros.
+---
+## Explicação Basica sobre os principais componentes:
+
+- Frame (JFrame): É uma janela principal em uma aplicação Swing. Ele representa a janela principal da interface gráfica
+do usuário.
+
+- Panel (JPanel): É um contêiner que pode conter outros componentes, como botões, campos de texto, etc. É frequentemente
+usado para organizar elementos em uma parte específica da janela.
+
+- Button (JButton): Representa um botão que pode ser clicado pelo usuário para acionar ações ou eventos em um programa.
+
+- TextField (JTextField): É uma área de texto que permite ao usuário inserir e editar texto. É usado para coletar entrada
+de texto do usuário.
+
+- JPasswordField: É semelhante a um campo de texto, mas é usado especificamente para senhas, ocultando os caracteres
+digitados para proteger a privacidade.
+
+- Menus: São elementos que fornecem opções de ação em um programa. Os menus podem conter itens de menu.
+
+- Menu (JMenu): É um item de menu que pode conter outros itens de menu. É usado para criar listas de opções em um
+programa.
+
+- MenuBar (JMenuBar): É uma barra de menus que normalmente fica na parte superior da janela e contém vários menus.
+
+- MenuItem (JMenuItem): É um item em um menu que representa uma ação específica que o usuário pode selecionar.
+Por exemplo, um MenuItem pode ser usado para "Salvar" ou "Sair" de um programa.

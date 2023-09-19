@@ -3,6 +3,8 @@ package bibliotecas;
 import javax.swing.*;
 import java.awt.*;
 
+// A classe JFrame é uma classe abstrata que fornecerá funcionalidades para criar e gerenciar janelas gráficas.
+// Nós a extendemos (herdamos) para utilizar seus métodos e criar uma janela personalizada.
 public class Bibliotecas extends JFrame {
 
     // Swing
