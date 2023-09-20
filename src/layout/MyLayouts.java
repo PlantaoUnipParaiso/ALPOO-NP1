@@ -12,11 +12,6 @@ public class MyLayouts extends JFrame {
     JButton botaoBorderEast = new JButton("East");
     JButton botaoBorderWeast = new JButton("Weast");
 
-    // Componentes para Card
-    JPanel card = new JPanel();
-    JButton botaoCard1 = new JButton("Card1");
-    JButton botaoCard2 = new JButton("Card2");
-
     // Componentes para Grid
     JPanel grid = new JPanel();
     JButton botaoGrid = new JButton("Grid1");
@@ -31,21 +26,15 @@ public class MyLayouts extends JFrame {
     public MyLayouts(){
         this.setBounds(0, 0, 500, 500);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        // Para este exemplo estaremos utilizando no frame o null e nos paineis configuraremos os layouts de forma independente
-        this.setLayout(null);
         this.setTitle("Janela");
-
-        // Para utilizar um dos layouts remova os comentários da linha que deseja utilizar
+        // Para utilizar um dos layouts remova os comentários do set e add respectivos e comente os outros
         // Ao utilizar mais de um layout ocupando a mesma area, prevalece aquele que foi acionado primeiro (Cima pra baixo)
-        //this.add(border);
-        //border.setBounds(0, 0, 500, 500);
+        //this.setLayout(null);
+        this.setLayout(new BorderLayout(2, 2));
+        //this.setLayout(new GridLayout(2, 2));
 
-        //this.add(card);
-        //card.setBounds(0, 0, 500, 500);
-
+        this.add(border);
         //this.add(grid);
-        //grid.setBounds(0, 0, 500, 500);
-
         //nullLayout.setBounds(0, 0, 500, 500);
 
         // Configurando Border
@@ -55,11 +44,6 @@ public class MyLayouts extends JFrame {
         border.add(botaoBorderCenter, BorderLayout.CENTER);
         border.add(botaoBorderEast, BorderLayout.EAST);
         border.add(botaoBorderWeast, BorderLayout.WEST);
-
-        // Configurando Card
-        card.setLayout(new CardLayout(2, 2));
-        card.add(botaoCard1);
-        card.add(botaoCard2);
 
         // Configurando Grid
         grid.setLayout(new GridLayout(2, 2));

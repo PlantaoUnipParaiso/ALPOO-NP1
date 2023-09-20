@@ -23,6 +23,9 @@ usado para organizar elementos em uma parte específica da janela.
 - TextField (JTextField): É uma área de texto que permite ao usuário inserir e editar texto. É usado para coletar entrada
 de texto do usuário.
 
+- Um "label" (rótulo) é um componente gráfico em uma interface de usuário que exibe texto ou um rótulo descritivo para
+informar ou identificar outros componentes.
+
 - JPasswordField: É semelhante a um campo de texto, mas é usado especificamente para senhas, ocultando os caracteres
 digitados para proteger a privacidade.
 

@@ -18,9 +18,10 @@ Sejam todos muito bem vindos ao material do plantão de ALPOO para a NP1.
         - [ ]  MenuBar
         - [ ]  MenuItem
 - [ ]  **Layouts:**
-    - [ ]  Card,
     - [ ]  Null,
     - [ ]  Border,
     - [ ]  Grid.
 - [ ]  **Listeners:**
     - [ ]  ActionListener
+      - [ ]  CardLayout (Ele é um layout que depende de um listener para funcionar)
+
